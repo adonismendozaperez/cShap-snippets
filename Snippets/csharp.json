@@ -1,0 +1,13 @@
+{
+	"blazor-page":{
+		"prefix":"blazor-page",
+		"body":[
+			"@page",
+			"@{",
+				"\t$0ViewData[\"${2:Title}\"] = \"${1:Title}\";",
+			"}",
+			"<h1>Index</h1>"
+		],
+		"description":"Create Blazer Page"
+	}
+}
