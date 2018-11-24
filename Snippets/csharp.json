@@ -8,6 +8,26 @@
 			"}",
 			"<h1>Index</h1>"
 		],
-		"description":"Create Blazer Page"
+		"description":"Create Blazor Page"
+	},
+	"blazor-page-code-behind":{
+		"prefix":"blazor-page-code-behind",
+		"body":[
+			"using System;",
+			"using Microsoft.AspNetCore.Mvc;",
+			"using Microsoft.AspNetCore.Mvc.RazorPages;",
+			"",
+			"namespace NameProject.Pages",
+			"{",
+				"\tpublic class NamePageModel : PageModel",
+				"\t{",
+					"\t \tpublic void OnGet()",
+					"\t\t{",
+						"\t\t\t $0",
+					"\t\t}",
+				"\t}",	
+			"}"
+		],
+		"description":"Create code behind in your Blazor Page"
 	}
 }
