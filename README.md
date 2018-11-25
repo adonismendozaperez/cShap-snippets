@@ -48,3 +48,21 @@ namespace NameProject.Pages
     }
 }
 ```
+
+##### Generating class
+type this command in your file, for generating class structure:
+
+> class
+
+Your get this code:
+```cSharp
+using System;
+
+namespace NameProject
+{
+    public class MyClass
+    {
+            
+    }
+}
+```

@@ -29,5 +29,20 @@
 			"}"
 		],
 		"description":"Create code behind in your Blazor Page"
+	},
+	"class":{
+		"prefix":"class",
+		"body":[
+			"using System;",
+			"",
+			"namespace NameProject",
+			"{",
+				"\tpublic class MyClass",
+				"\t{",
+					"\t\t\t$0",
+				"\t}",	
+			"}"
+		],
+		"description":"Create Class"
 	}
 }
