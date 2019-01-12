@@ -44,5 +44,15 @@
 			"}"
 		],
 		"description":"Create Class"
+	},
+	"Comment":{
+		"prefix":"comment",
+		"body":[
+			"/// <summary>",
+			"/// Description$0",
+			"/// </summary>",
+			"/// <param name=\"ParameterName\"> Value </param>",
+			"/// <returns> string </returns>"
+		]
 	}
 }

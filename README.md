@@ -14,6 +14,9 @@ Depending on your platform, your snippets file is copied here:
 * macOS : ``` $HOME/Library/Application Support/Code/User/snippets/ ```
 * Linux : ``` $HOME/.config/Code/User/snippets/ ```
 
+If you use VSCode:
+Open Snippets/csharp.json (in this Report) > copy content of this file > go to VSCode > Click in button Manage > select user Snippets > type CSharp.json and select this file > paste the Snippets content.
+
 ### How to use
 For generating a Razor Page use this key in your file .cshtml:
 > blazor-page 
@@ -65,4 +68,18 @@ namespace NameProject
             
     }
 }
+```
+
+##### Generating comment
+Type this command in the headers of your Function or Methods, for generating a comment:
+
+> comment
+
+Your get this code:
+```cSharp
+/// <summary>
+/// Description
+/// </summary>
+/// <param name="ParameterName"> Value </param>
+/// <returns> string </returns>
 ```
